@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://twogether.cn/"/>
-  <updated>2018-02-19T13:47:11.692Z</updated>
+  <updated>2018-02-20T13:10:54.716Z</updated>
   <id>http://twogether.cn/</id>
   
   <author>
@@ -21,24 +21,20 @@
     <link href="http://twogether.cn/2018/02/19/sftp%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%A4%B9/"/>
     <id>http://twogether.cn/2018/02/19/sftp上传文件夹/</id>
     <published>2018-02-19T13:25:09.000Z</published>
-    <updated>2018-02-19T13:47:11.692Z</updated>
+    <updated>2018-02-20T13:10:54.716Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>使用hexo写博客,完成后将生成好的静态文件上传到服务器上。<br>利用sftp将本地文件夹E:\yixuan2016.github.io\public（包含子文件夹）,复制到服务器/usr/share/nginx/html/blog/目录下</p></blockquote><blockquote><p>命令: put<br>环境：win10<br>命令行工具：cmder</p></blockquote><p>步骤:</p><ol><li>sftp登录到服务器<br><code>λ sftp root@twogether.cn</code></li><li>首先定位到远程/usr/share/nginx/html/blog/目录下：<code>cd /usr/share/nginx/html/blog/</code></li><li>本地定位到E:\yixuan2016.github.io\public目录下： <code>lcd E:\\yixuan2016.github.io\\public</code></li><li>执行命令： <code>put -r ./*</code></li><li>命令执行完成 本地文件便全部复制到远程文件夹中。</li></ol>]]></content>
+    <content type="html"><![CDATA[<p>使用hexo写博客,完成后将生成好的静态文件上传到服务器上。<br>利用sftp将本地文件夹E:\yixuan2016.github.io\public（包含子文件夹）,复制到服务器/usr/share/nginx/html/blog/目录下<br><a id="more"></a></p><blockquote><p>命令: put<br>环境：win10<br>命令行工具：cmder</p></blockquote><p>步骤:</p><ol><li>sftp登录到服务器<br><code>λ sftp root@twogether.cn</code></li><li>首先定位到远程/usr/share/nginx/html/blog/目录下：    <code>cd /usr/share/nginx/html/blog/</code></li><li>本地定位到E:\yixuan2016.github.io\public目录下：     <code>lcd E:\yixuan2016.github.io\public</code></li><li>执行命令：    <code>put -r ./*</code></li><li>命令执行完成 本地文件便全部复制到远程文件夹中。</li></ol>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;blockquote&gt;
-&lt;p&gt;使用hexo写博客,完成后将生成好的静态文件上传到服务器上。&lt;br&gt;利用sftp将本地文件夹E:\yixuan2016.github.io\public（包含子文件夹）,复制到服务器/usr/share/nginx/html/blog/目录下&lt;/p
-      
+      &lt;p&gt;使用hexo写博客,完成后将生成好的静态文件上传到服务器上。&lt;br&gt;利用sftp将本地文件夹E:\yixuan2016.github.io\public（包含子文件夹）,复制到服务器/usr/share/nginx/html/blog/目录下&lt;br&gt;
     
     </summary>
     
       <category term="Linux" scheme="http://twogether.cn/categories/Linux/"/>
     
     
-      <category term="Linux, 学习" scheme="http://twogether.cn/tags/Linux-%E5%AD%A6%E4%B9%A0/"/>
+      <category term="Linux 学习" scheme="http://twogether.cn/tags/Linux-%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   

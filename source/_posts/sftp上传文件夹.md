@@ -1,12 +1,13 @@
 ---
 title: sftp上传文件夹
-tags: Linux, 学习
+tags: Linux 学习
 categories: Linux
 comments: true
 date: 2018-02-19 21:25:09
 ---
 使用hexo写博客,完成后将生成好的静态文件上传到服务器上。
 利用sftp将本地文件夹E:\yixuan2016.github.io\public（包含子文件夹）,复制到服务器/usr/share/nginx/html/blog/目录下
+<!--more-->
 
 > 命令: put
 > 环境：win10

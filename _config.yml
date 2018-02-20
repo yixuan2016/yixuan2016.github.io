@@ -80,3 +80,8 @@ deploy:
   type: git
   repo: git@github.com:yixuan2016/yixuan2016.github.io.git
   branch: master
+
+# deploy:
+#   type: ftpsync
+#   repo: twogether.cn
+#   branch: master
